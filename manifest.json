@@ -1,5 +1,5 @@
 {
-	"name": "titlePreface - add a name to any window's title bar",
+	"name": "titlePreface - add a name to the window title",
 	"description": "If you organize windows by topic, you may want to add a preface to the title bar for easier spotting.",
 	"version": "0.1",
 	"manifest_version": 2,
