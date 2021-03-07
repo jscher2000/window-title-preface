@@ -1,0 +1,21 @@
+{
+	"name": "titlePreface - add a name to any window's title bar",
+	"description": "If you organize windows by topic, you may want to add a preface to the title bar for easier spotting.",
+	"version": "0.1",
+	"manifest_version": 2,
+	"applications":{
+		"gecko": {
+			"id": "window-title-preface@jeffersonscher.com",
+			"strict_min_version": "60.0"
+		}
+	},
+	"browser_action": {
+		"browser_style": true,
+		"default_icon": "icons/hi_128x128.png",
+		"default_popup": "editPreface.html",
+		"default_title": "titlePreface"
+	},
+	"icons": {
+		"128": "icons/hi_128x128.png"
+	}
+}

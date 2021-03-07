@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="editPreface.css" type="text/css">
+<title>titlePreface Popup 0.1</title>
+</head>
+<body>
+<h1>Edit titlePreface</h1>
+<form id="frmPreface">
+<p><label>Text: <input type="text" id="newPreface" autofocus></label> 
+<!-- LATER: need to pre-populate current value from storage (if known, or using tabs permission, maybe) -->
+<button type="button" id="btnGo">Update</button> <button type="button" id="btnCancel">Cancel</button></p>
+<!-- LATER: need to provide access to prePreface, postPreface, delimiter values -->
+<!-- LATER: show a real-time preview of how it will appear with prePreface + text + postPreface + delimiter -->
+<div id="errs"></div>
+</form>
+</body>
+<script type="text/javascript" src="editPreface.js"></script>
+</html>
